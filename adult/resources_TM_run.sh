@@ -5,7 +5,7 @@
 #SBATCH -c 2
 #SBATCH --mem=180G
 #SBATCH --tmp=100gb
-#SBATCH -t 4:00:00
+#SBATCH -t 12:00:00
 #SBATCH -p amd512,amdsmall,amdlarge,ram256g
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=lmoore@umn.edu

@@ -40,15 +40,10 @@ echo ${session}
 echo ${data_bucket_path}
 echo ${tmp_path}
 
-#derivatives_path=s3://HCP-Dv2_BIDS/derivatives/abcd-hcp-pipeline
-#processed_path=${data_bucket_path}/processed/abcd-hcp-pipeline/
-#Note.  For the K2H dataset, I noticed some of the files don't have the subject ID in thefile name but instead start with ''ses-'.  -RH
-
 dtseries_suffix=task-restMENORDICrmnoisevols_DCANBOLDProc_v4.0.0_Atlas.dtseries.nii
 motion_suffix=task-restMENORDICrmnoisevols_power_2014_FD_only.mat
 L_surf_suffix=.L.midthickness.32k_fs_LR.surf.gii
 R_surf_suffix=.R.midthickness.32k_fs_LR.surf.gii
-#slum_tmp_paths
 
 #####################################
 

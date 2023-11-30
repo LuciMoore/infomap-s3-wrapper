@@ -14,10 +14,13 @@ fd_threshold=0.2
 run_files_folder="${run_folder}/run_files.syncTM"
 output_logs_folder="${run_folder}/output_logs"
 TM_template="template.s3sync_then_TM_run"
+infomap_jsons="${run_folder}/infomap_jsons"
 
 if [ ! -d "${run_files_folder}" ]; then
     mkdir -p "${run_files_folder}"
 fi
+
+cp -r ${infomap_jsons}/* ${run_files_folder}
 
 if [ ! -d "${output_logs_folder}" ]; then
     mkdir -p "${output_logs_folder}"

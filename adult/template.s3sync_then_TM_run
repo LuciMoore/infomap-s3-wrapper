@@ -84,9 +84,3 @@ echo ${X} > "matlab_command""$RandomHash"".m"
 cat "matlab_command""$RandomHash"".m"
 ${matlab_exec} -nodisplay -nosplash < "matlab_command""$RandomHash"".m"
 rm -f "matlab_command""$RandomHash"".m"
-
-#remove synced files
-rm -f $tmp_dtseries_path
-rm -f $tmp_motion_path
-rm -f $tmp_Lsurf_path
-rm -f $tmp_Rsurf_path
